@@ -9,6 +9,26 @@ This new dataset has following advantages over the existing Twitter datasets:
 * Furthermore, since the sole purpose of \emph{TheOnion} is to publish sarcastic news, we get high quality labels with much less noise as compared to twitter datasets.
 * Unlike tweets which are replies to other tweets, the news headlines we obtained are self-contained. This would help us in teasing apart the real sarcastic elements.
 
+## Data
+Each record consists of three attributes:
+
+* ```is_sarcastic```: 1 if record is sarcastic otherwise 0
+
+* ```headline```: headline of the news article
+
+* ```article_link```: link to the original news article. Useful in collecting supplimentary data
+
+### Reading the data
+In python, data can be read using the following function:
+
+~~~~
+def parseJson(fname):
+    for line in open(fname, 'r'):
+        yield eval(line)
+~~~~
+
+Example usecase: `data = list(parseJson('./Sarcasm_Headlines_Dataset.json'))`
+
 ## Statistics
 The general statistics of this dataset along with high quality Twitter dataset provided by [Semeval challenge](https://competitions.codalab.org/competitions/17468) are given in following table. 
 
