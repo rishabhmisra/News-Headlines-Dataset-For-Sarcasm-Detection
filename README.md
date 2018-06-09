@@ -44,6 +44,8 @@ We can notice that for Headlines dataset, where text is much more formal in lang
 ## WordClouds
 As a basic exploration, following figures visualize the word clouds through which we can see the types of words that occur frequently in each category.
 
+### Sarcastic Headlines
 ![Wordcloud of Sarcastic Headlines](https://github.com/rishabhmisra/Sarcasm-Headlines-Dataset/blob/master/wordcloud_sarcastic.png)
 
+### Non-sarcastic Headlines
 ![Wordcloud of Sarcastic Headlines](https://github.com/rishabhmisra/Sarcasm-Headlines-Dataset/blob/master/wordcloud_non_sarcastic.png)
