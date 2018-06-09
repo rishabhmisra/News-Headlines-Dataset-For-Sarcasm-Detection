@@ -1,22 +1,22 @@
 # News-Headlines-Dataset-For-Sarcasm-Detection
 
-Past studies in Sarcasm Detection mostly make use of twitter datasets collected using hashtag based supervision but such datasets are noisy in terms of labels and language. Furthermore, many tweets are replies to other tweets and detecting sarcasm in these requires the availability of contextual tweets.
+Past studies in Sarcasm Detection mostly make use of Twitter datasets collected using hashtag based supervision but such datasets are noisy in terms of labels and language. Furthermore, many tweets are replies to other tweets and detecting sarcasm in these requires the availability of contextual tweets.
 
 To overcome the limitations related to noise in Twitter datasets, this **Headlines dataset for Sarcasm Detection** is collected from two news website. [*TheOnion*](https://www.theonion.com/) aims at producing sarcastic versions of current events and we collected all the headlines from News in Brief and News in Photos categories (which are sarcastic). We collect real (and non-sarcastic) news headlines from [*HuffPost*](https://www.huffingtonpost.com/).
 
 This new dataset has following advantages over the existing Twitter datasets:
 * Since news headlines are written by professionals in a formal manner, there are no spelling mistakes and informal usage. This reduces the sparsity and also increases the chance of finding pre-trained embeddings.
-* Furthermore, since the sole purpose of \emph{TheOnion} is to publish sarcastic news, we get high quality labels with much less noise as compared to twitter datasets.
+* Furthermore, since the sole purpose of \emph{TheOnion} is to publish sarcastic news, we get high-quality labels with much less noise as compared to Twitter datasets.
 * Unlike tweets which are replies to other tweets, the news headlines we obtained are self-contained. This would help us in teasing apart the real sarcastic elements.
 
 ## Data
 Each record consists of three attributes:
 
-* ```is_sarcastic```: 1 if record is sarcastic otherwise 0
+* ```is_sarcastic```: 1 if the record is sarcastic otherwise 0
 
-* ```headline```: headline of the news article
+* ```headline```: the headline of the news article
 
-* ```article_link```: link to the original news article. Useful in collecting supplimentary data
+* ```article_link```: link to the original news article. Useful in collecting supplementary data
 
 ### Reading the data
 In python, data can be read using the following function:
@@ -30,7 +30,7 @@ def parseJson(fname):
 Example usecase: `data = list(parseJson('./Sarcasm_Headlines_Dataset.json'))`
 
 ## Statistics
-The general statistics of this dataset along with high quality Twitter dataset provided by [Semeval challenge](https://competitions.codalab.org/competitions/17468) are given in following table. 
+The general statistics of this dataset along with high-quality Twitter dataset provided by [Semeval challenge](https://competitions.codalab.org/competitions/17468) are given in the following table. 
 
 | Statistic/Dataset                              | Headlines | Semeval |
 |------------------------------------------------|-----------|---------|
@@ -39,7 +39,7 @@ The general statistics of this dataset along with high quality Twitter dataset p
 | # Non-sarcastic records                        | 14,984    | 604     |
 | % of pre-trained word embeddings not available | 23.35     | 35.53   |
 
-We can notice that for Headlines dataset, where text is much more formal in language, percentage of words not available in word2vec vocabulary is much less than Semeval dataset.
+We can notice that for Headlines dataset, where the text is much more formal in language, the percentage of words not available in word2vec vocabulary is much less than Semeval dataset.
 
 ## WordClouds
 As a basic exploration, following figures visualize the word clouds through which we can see the types of words that occur frequently in each category.
