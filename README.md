@@ -6,7 +6,7 @@ To overcome the limitations related to noise in Twitter datasets, this **Headlin
 
 This new dataset has following advantages over the existing Twitter datasets:
 * Since news headlines are written by professionals in a formal manner, there are no spelling mistakes and informal usage. This reduces the sparsity and also increases the chance of finding pre-trained embeddings.
-* Furthermore, since the sole purpose of \emph{TheOnion} is to publish sarcastic news, we get high-quality labels with much less noise as compared to Twitter datasets.
+* Furthermore, since the sole purpose of *TheOnion* is to publish sarcastic news, we get high-quality labels with much less noise as compared to Twitter datasets.
 * Unlike tweets which are replies to other tweets, the news headlines we obtained are self-contained. This would help us in teasing apart the real sarcastic elements.
 
 ## Data
