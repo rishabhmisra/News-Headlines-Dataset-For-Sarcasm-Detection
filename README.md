@@ -49,3 +49,6 @@ As a basic exploration, following figures visualize the word clouds through whic
 
 ### Non-sarcastic Headlines
 ![Wordcloud of Sarcastic Headlines](https://github.com/rishabhmisra/Sarcasm-Headlines-Dataset/blob/master/wordcloud_non_sarcastic.png)
+
+## Acknowledgements
+This dataset was collected from [TheOnoin](https://theonion.com) and [HuffPost](https://www.huffingtonpost.com/). If this is against the TOS, please let me know and I will take it down.
