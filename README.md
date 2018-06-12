@@ -30,7 +30,7 @@ def parseJson(fname):
 Example usecase: `data = list(parseJson('./Sarcasm_Headlines_Dataset.json'))`
 
 ## Statistics
-The general statistics of this dataset along with high-quality Twitter dataset provided by [Semeval challenge](https://competitions.codalab.org/competitions/17468) are given in the following table. 
+The general statistics of this dataset along with high-quality Twitter dataset (in terms of label only) provided by [Semeval challenge](https://competitions.codalab.org/competitions/17468) are given in the following table. 
 
 | Statistic/Dataset                              | Headlines | Semeval |
 |------------------------------------------------|-----------|---------|
