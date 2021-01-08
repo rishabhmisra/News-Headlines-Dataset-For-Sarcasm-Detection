@@ -54,9 +54,21 @@ As a basic exploration, following figures visualize the word clouds through whic
 This dataset was collected from [TheOnion](https://theonion.com) and [HuffPost](https://www.huffingtonpost.com/).
 
 ## Cite
-Please cite the following if you use the data using [this link](https://scholar.google.com/citations?view_op=list_works&hl=en&user=EN3OcMsAAAAJ#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DEN3OcMsAAAAJ%26citation_for_view%3DEN3OcMsAAAAJ%3AqjMakFHDy7sC%26tzom%3D420):
+Please cite the following if you use the data:
 ```
-Sarcasm Detection using Hybrid Neural Network
-Rishabh Misra, Prahal Arora
-Arxiv, August 2019
+@article{misra2019sarcasm,
+  title={Sarcasm Detection using Hybrid Neural Network},
+  author={Misra, Rishabh and Arora, Prahal},
+  journal={arXiv preprint arXiv:1908.07414},
+  year={2019}
+}
+
+@book{book,
+author = {Misra, Rishabh and Grover, Jigyasa},
+year = {2021},
+month = {01},
+pages = {},
+title = {Sculpting Data for ML: The first act of Machine Learning},
+isbn = {978-0-578-83125-1}
+}
 ```
