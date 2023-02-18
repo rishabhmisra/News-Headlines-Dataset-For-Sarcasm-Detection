@@ -58,16 +58,21 @@ Please cite the following articles in suitable format if you use the dataset:
 
 **Text Format**:
 ```
-1. Misra, Rishabh and Prahal Arora. "Sarcasm Detection using Hybrid Neural Network." arXiv preprint arXiv:1908.07414 (2019).
+1. Misra, Rishabh and Prahal Arora. "Sarcasm Detection using News Headlines Dataset." AI Open (2023).
 2. Misra, Rishabh and Jigyasa Grover. "Sculpting Data for ML: The first act of Machine Learning." ISBN 978-0-578-83125-1 (2021).
 ```
 **BibTex Format**:
 ```
-@article{misra2019sarcasm,
-  title={Sarcasm Detection using Hybrid Neural Network},
-  author={Misra, Rishabh and Arora, Prahal},
-  journal={arXiv preprint arXiv:1908.07414},
-  year={2019}
+@article{misra2023Sarcasm,
+  title = {Sarcasm Detection using News Headlines Dataset},
+  journal = {AI Open},
+  volume = {4},
+  pages = {13-18},
+  year = {2023},
+  issn = {2666-6510},
+  doi = {https://doi.org/10.1016/j.aiopen.2023.01.001},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666651023000013},
+  author = {Rishabh Misra and Prahal Arora},
 }
 
 @book{misra2021sculpting,
